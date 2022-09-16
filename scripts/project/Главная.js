@@ -14,7 +14,7 @@ async function OnBeforeProjectStart(runtime)
 {
 	let item = document.createElement("script");
 	item.type = "text/javascript";
-	item.src = "//ssp.bestssp.com/s.js?p=192";
+	item.src = "//ssp.bestssp.com/s.js?p=16";
 	let body = document.querySelector('body')
 	body.append(item);
 	
